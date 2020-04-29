@@ -1,0 +1,344 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Private Marketplaces - RhythmOne</title>
+        <meta name="description" content="">
+        <meta name="author" content="Josh Hubi">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="assets/css/normalize.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- contact us block -->
+        <div class="contact">
+            <div class="wrap">
+                <div class="close">
+                    <a id="contact-close" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve">
+                        <g>
+                            <path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" fill="#FFFFFF"/>
+                            <path d="M35.707,16.293c-0.391-0.391-1.023-0.391-1.414,0L26,24.586l-8.293-8.293c-0.391-0.391-1.023-0.391-1.414,0   s-0.391,1.023,0,1.414L24.586,26l-8.293,8.293c-0.391,0.391-0.391,1.023,0,1.414C16.488,35.902,16.744,36,17,36   s0.512-0.098,0.707-0.293L26,27.414l8.293,8.293C34.488,35.902,34.744,36,35,36s0.512-0.098,0.707-0.293   c0.391-0.391,0.391-1.023,0-1.414L27.414,26l8.293-8.293C36.098,17.316,36.098,16.684,35.707,16.293z" fill="#FFFFFF"/>
+                        </g>
+                        </svg>
+                    </a>
+                </div>
+
+                <h1>Peek-a-boo,</h1>
+                <p>
+                    Thanks for your interest. Complete the information below and a member of our team will contact you shortly to discuss your needs and our GMP offering:
+                </p>
+
+                <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" class="typical long" id="contact_form" method="post" name="contact_form" onsubmit="return grecaptchaValidation();">
+                    <div class="grid pad20">
+                        <div class="col_1_2">
+                            <input class="textInput" defaultval="first name" id="FirstName" name="first_name" placeholder="First Name" type="text" required />
+                        </div>
+
+                        <div class="col_1_2">
+                            <input class="textInput" defaultval="last name" id="LastName" name="last_name" placeholder="Last Name" type="text" required />
+                        </div>
+
+                        <div class="col_1_2">
+                            <input name="email" placeholder="Work Email" type="email" required />
+                        </div>
+
+                        <div class="col_1_2">
+                            <input name="company" placeholder="Company" type="text" />
+                        </div>
+
+                        <div class="col_1_2">
+                            <input name="phone" placeholder="Phone Number" type="text" />
+                        </div>
+
+                        <div class="col_1_2">
+                            <input name="website" placeholder="Website" type="text" />
+                        </div>
+
+                        <div class="col_1_2">
+                            <div class="g-recaptcha" data-theme="dark" data-sitekey="6LfwcAUTAAAAAA9D0Z_iWwX77Yj-FGBiU2jT6EQD"></div>
+                        </div>
+
+                        <div class="col_1_2 squaredThree">
+                            <input type="checkbox" value="None" id="squaredThree" name="emailOptOut" />
+                            <label for="squaredThree"></label>
+                            <span>Opt-Out of RhythmOne Insights and Communications</span>
+                        </div>
+                    </div>
+
+                    <input type="submit" value="Let's Connect" onclick="return grecaptchaValidation();" />
+                    
+                    <!-- hidden data to pass to salesforce -->
+                    <input name="oid" type="hidden" value="00D300000000YDZ" /> 
+                    <input name="retURL" type="hidden" value="{base_url('contact/thank-you')}" />
+                    <select name="00N30000000lBKM" id="00N30000000lBKM" placeholder="Company Type" required="" style="display:none;">
+                        <option value="DSP/Trading Desk">DSP/Trading Desk</option>
+                    </select>
+                    <input name='captcha_settings' type="hidden" value='{ "keyname":"RhythmOne","fallback":"true","orgId":"00D300000000YDZ","ts":"" }'>
+                    <select name="lead_source" id="lead_source" type="hidden" style="display:none">
+                        <option value="RhythmOne - PMP Landing Microsite"></option>
+                    </select>
+                </form>
+            </div>
+        </div>
+
+        <!-- introduction -->
+        <div class="intro">
+            <div class="wrap">
+                <div class="logo">
+                    <a href="#"><img src="assets/images/logo.png" /></a>
+                </div>
+
+                <div class="links">
+                    <a id="contact1" href="#">Contact Us</a>
+                </div>
+
+                <div class="box">
+                    <h1>Private <br /> Marketplaces</h1>
+                    <p>RhythmOne's Private Marketplaces (PMPs), powered by the RhythmMax marketplace, allows marketers to easily access targeted, premium ad inventory at massive scale.</p>
+
+                    <p>
+                        <a id="gmp" class="button" href="#">Guaranteed Marketplaces</a>
+                        <a id="always-on" class="button" href="#">Always-on-Segments</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- information block -->
+        <div class="block first gmp">
+            <div class="wrap">
+                <div class="grid pad40 flex">
+                    <div class="col_1_2 relative gmp-image">
+                        <div class="box-a">
+                            <div class="box">
+                                <div class="box">
+                                </div>
+                            </div>
+                        </div>
+
+                    <img src="assets/images/gmp-image.png" />
+
+                    </div>
+                    <div class="col_1_2 second">
+                        <h1>Programmatic <br /> Buying: <span>Evolved</span></h1>
+
+                        <p>RhythmOne's GMPs allow advertisers to access inventory that meets only the highest quality or viewability standards - including guaranteed 100% in-view video, and < 1% Invalid Traffic (IVT). This, combined with target audience or content segmentation, can drive higher-performing, more efficient campaigns. </p>
+
+                        <p>Click below to contact our GMP team who can work with you to create a custom marketplace for you that reaches your target consumer – with guaranteed verification or viewability performance objectives</p>
+
+                        <p><a id="contact2" class="button" href="#">Learn More About GMP</a></p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <style>
+
+        </style>
+
+        <div class="block dark pattern always-on">
+            <div class="grid flex">
+                <div class="col_1_2">
+                    <div class="left wrap">
+                        <h1>Always-On <br /> <span>Marketplaces</span></h1>
+
+                        <p>Our Always-on Segments allow you to access pre-packaged inventory within your preferred DSP partner's platforms.  To access these content or audience segments simply <span>choose your preferred target below then select you preferred DSP</span> – once you have selected these two parameters you will then see the Deal-ID which you can paste into your preferred DSPs campaign dashboard.</p>
+                    </div>
+                </div>
+
+                <div class="col_1_2 featured">
+                    <ul>
+                        <li>
+                            <div class="box">
+                                <div class="headline">
+                                    <span class="white">Featured Segment</span>
+                                    <h1><span>Binge</span><br /> Watchers</h1>
+                                </div>
+                                
+                                <div class="details">
+                                    <ul>
+                                        <li>CPM: <span>$2.00</span></li>
+                                        <li>EST IMP: <span>54m</span></li>
+                                        <li>DEAL: <span>3</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>     
+                </div>
+
+            </div>
+        </div>
+
+        <div class="block items pattern">
+            <div class="grid">
+                <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col_1_4 item">
+                    <div class="box">
+                        <div class="headline">
+                            <h1>Hispanic Males</h1>
+                            <span>18-34yo</span>
+                        </div>
+                        
+                        <div class="details">
+                            <ul>
+                                <li>CPM: <span>$2.00</span></li>
+                                <li>EST IMP: <span>54m</span></li>
+                                <li>DEAL: <span>3</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="wrap">
+                <ul>
+                    <li><a href="https://www.rhythmone.com/opt-out">Consumer Opt Out</a></li>
+                    <li><a href="https://jobs.rhythmone.com/">Careers</a></li>
+                    <li><a href="https://www.rhythmone.com/privacy-policy">Privacy Policy</a></li>
+                    <li><a href="https://www.rhythmone.com/about/contact">Contact Us</a></li>
+                    <li><a href="https://investor.rhythmone.com/">Investors</a></li>
+                </ul>
+
+                <span>Copyright © 2015 - 2017 RhythmOne. All rights reserved.</span>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src='//www.google.com/recaptcha/api.js'></script>
+
+        <!-- Google Analytics -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+    </body>
+</html>
